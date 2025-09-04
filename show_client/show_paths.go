@@ -293,4 +293,9 @@ func init() {
 		nil,
 		showCmdOptionVerbose,
 	)
+	sdc.RegisterCliPath(
+		[]string{"SHOW", "services"},
+		getServices,
+		nil,
+	)
 }
